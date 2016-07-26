@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  body h1, body h2, body h3, body h4, body a {
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none; }
+  body .top-half, body .bottom-half {
+    height: 50%;
+    display: flex;
+    flex-direction: row; }
+  body .intro {
+    min-width: 50%;
+    min-height: 50%;
+    text-align: center;
+    background-color: #cccccc; }
+    body .intro h1 {
+      margin: 0 auto; }
+  body .github-linkedin-seemore-container {
+    min-width: 50%;
+    min-height: 50%;
+    background-color: #979797; }
+    body .github-linkedin-seemore-container .github-linkedin {
+      min-height: 50%;
+      min-width: 100%;
+      display: inline-flex; }
+      body .github-linkedin-seemore-container .github-linkedin .github {
+        min-width: 50%;
+        background-color: red; }
+      body .github-linkedin-seemore-container .github-linkedin .linkedIn {
+        min-width: 50%;
+        background-color: blue;
+        align-items: center;
+        justify-content: center; }
+    body .github-linkedin-seemore-container .seemore-container {
+      min-width: 100%;
+      min-height: 50%;
+      background-color: purple; }
+  body .social-container {
+    min-width: 50%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: cyan; }
+    body .social-container .instagram, body .social-container .dribbble, body .social-container .twitter, body .social-container .behance {
+      min-width: 50%;
+      min-height: 50%;
+      align-items: center;
+      justify-content: center; }
+    body .social-container .insta-dribbble, body .social-container .twit-behance {
+      width: 100%;
+      display: inline-flex; }
+  body .say_hello {
+    background-color: tomato;
+    min-width: 50%;
+    min-height: 50%; }
+
+/*# sourceMappingURL=main.css.map */
